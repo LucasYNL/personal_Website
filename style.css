@@ -1,0 +1,24 @@
+@keyframes intro {
+    100%{ opacity: 1;}
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+}
+
+.baseWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.introText h2{
+    color: white;
+    opacity: 0;
+    margin: 0;
+    animation: intro 6s forwards;
+}
